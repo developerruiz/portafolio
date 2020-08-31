@@ -4,6 +4,8 @@ portafolio web
 Portafolio web 
 Creo este portafolio web , para dar a conocer mis conocimiento y experiencias trabajadas con algunos sitios web en areas laborales que me eh encontrado y como freelance. 
 
+
+
 Buscando un estilo diferente al diseño de la pagina con munenfoque minimalista, y dando por secciones algunos puntos destacados como:
 Banner
 Perfil 
