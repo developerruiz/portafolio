@@ -1,0 +1,95 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+body {
+  background-color: #121212; /* Color de fondo del sitio */
+  color: #fff; /* Color de texto blanco */
+}
+
+.btn-special {
+  border: none;
+  border-radius: 0;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #bfff00, #8E13A4); /* Utilizar la variable de color */
+  color: #fff; /* Color de texto blanco */
+}
+
+.btn-special:hover {
+  opacity: 0.8; /* Reducir opacidad al pasar el ratón */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #bfff00 !important; /* Color especial para los títulos */
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 100vh; /* Cubre toda la altura de la pantalla */
+}
+
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 50px 0; /* Espaciado interno */
+}
+
+.section img {
+  max-width: 100%; /* La imagen se ajustará al 100% del ancho del contenedor */
+  height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+.section h2 {
+  font-size: 2rem; /* Tamaño del subtítulo */
+  color: #fff; /* Color del texto */
+}
+
+.line {
+  border: none;
+  border-top: 2px solid #fff; /* Estilo de línea */
+  margin-top: 20px; /* Espacio entre el subtítulo y la línea */
+}
+
+.description {
+  color: #fff; /* Color del texto */
+  margin-top: 20px; /* Espacio entre la línea y el texto de la descripción */
+}
+
+.btn-special {
+  border: none;
+  border-radius: 0;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #bfff00, #8E13A4); /* Utilizar la variable de color */
+  color: #fff; /* Color de texto blanco */
+  margin-top: 20px; /* Espacio entre el texto de la descripción y el botón */
+}
+
+.btn-special:hover {
+  opacity: 0.8; /* Reducir opacidad al pasar el ratón */
+}
+
+.card {
+  background: #222222 !important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
