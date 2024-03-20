@@ -15,7 +15,7 @@ body {
   border: none;
   border-radius: 0;
   padding: 10px 20px;
-  background: linear-gradient(to right, #bfff00, #8E13A4); /* Utilizar la variable de color */
+  background: linear-gradient(to right, #bfff00, #8e13a4); /* Utilizar la variable de color */
   color: #fff; /* Color de texto blanco */
 }
 
@@ -23,7 +23,12 @@ body {
   opacity: 0.8; /* Reducir opacidad al pasar el ratón */
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #bfff00 !important; /* Color especial para los títulos */
 }
 
@@ -74,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   border-radius: 0;
   padding: 10px 20px;
-  background: linear-gradient(to right, #bfff00, #8E13A4); /* Utilizar la variable de color */
+  background: linear-gradient(to right, #bfff00, #8e13a4); /* Utilizar la variable de color */
   color: #fff; /* Color de texto blanco */
   margin-top: 20px; /* Espacio entre el texto de la descripción y el botón */
 }
@@ -204,4 +209,53 @@ img {
 
 .slick-arrow.slick-hidden {
   display: none;
+}
+
+.img-blanca {
+  filter: brightness(0) invert(1);
+}
+
+.img-bg-1 {
+  background-image: url("../img/mockup1.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 380px;
+  transition: ease-out 0.3s;
+}
+
+.img-bg-2 {
+  background-image: url("../img/mockup2.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  transition: ease-out 0.3s;
+}
+
+.img-bg-3 {
+  background-image: url("../img/mockup3.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  transition: ease-out 0.3s;
+}
+
+.img-bg-4 {
+  background-image: url("../img/mockup4.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  transition: ease-out 0.3s;
+}
+
+.hover-port {
+  transition: ease-out 0.3s;
+}
+.hover-port:hover {
+  background: #121212 !important;
+  opacity: 0.3 !important;
+  transition: ease-out 0.3s !important;
+  transform: scale(0.9) !important;
+}
+
+.animate {
+  opacity: 0; /* Comienza con una opacidad de 0 para que los elementos estén ocultos */
+  transform: translateY(40px); /* Empieza ligeramente desplazado hacia abajo */
+  transition: opacity 1s, transform 1s; /* Aplica una transición suave a la opacidad y al desplazamiento */
 }/*# sourceMappingURL=style.css.map */

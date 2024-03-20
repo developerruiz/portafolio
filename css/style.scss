@@ -1,233 +1,272 @@
 $color-botón: #bfff00; // Definir una variable para el color del botón
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 14px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
 body {
-    background-color: #121212; /* Color de fondo del sitio */
-    color: #fff; /* Color de texto blanco */
+  background-color: #121212; /* Color de fondo del sitio */
+  color: #fff; /* Color de texto blanco */
 }
 
 .btn-special {
-    border: none;
-    border-radius: 0;
-    padding: 10px 20px;
-    background: linear-gradient(to right, $color-botón, #8E13A4); /* Utilizar la variable de color */
-    color: #fff; /* Color de texto blanco */
+  border: none;
+  border-radius: 0;
+  padding: 10px 20px;
+  background: linear-gradient(
+    to right,
+    $color-botón,
+    #8e13a4
+  ); /* Utilizar la variable de color */
+  color: #fff; /* Color de texto blanco */
 }
 
 .btn-special:hover {
-    opacity: 0.8; /* Reducir opacidad al pasar el ratón */
+  opacity: 0.8; /* Reducir opacidad al pasar el ratón */
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: $color-botón!important; /* Color especial para los títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color-botón !important; /* Color especial para los títulos */
 }
-
 
 .banner {
-    // background-image: url('../img/banner.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    height: 100vh; /* Cubre toda la altura de la pantalla */
+  // background-image: url('../img/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 100vh; /* Cubre toda la altura de la pantalla */
 }
 
 .banner h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
 
-
 .banner p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin: 0 auto;
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 // SECCION #2
 
 .section {
-    padding: 50px 0; /* Espaciado interno */
+  padding: 50px 0; /* Espaciado interno */
 }
 
 .section img {
-    max-width: 100%; /* La imagen se ajustará al 100% del ancho del contenedor */
-    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  max-width: 100%; /* La imagen se ajustará al 100% del ancho del contenedor */
+  height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
 }
 
 .section h2 {
-    font-size: 2rem; /* Tamaño del subtítulo */
-    color: #fff; /* Color del texto */
+  font-size: 2rem; /* Tamaño del subtítulo */
+  color: #fff; /* Color del texto */
 }
 
 .line {
-    border: none;
-    border-top: 2px solid #fff; /* Estilo de línea */
-    margin-top: 20px; /* Espacio entre el subtítulo y la línea */
+  border: none;
+  border-top: 2px solid #fff; /* Estilo de línea */
+  margin-top: 20px; /* Espacio entre el subtítulo y la línea */
 }
 
 .description {
-    color: #fff; /* Color del texto */
-    margin-top: 20px; /* Espacio entre la línea y el texto de la descripción */
+  color: #fff; /* Color del texto */
+  margin-top: 20px; /* Espacio entre la línea y el texto de la descripción */
 }
 
 .btn-special {
-    border: none;
-    border-radius: 0;
-    padding: 10px 20px;
-    background: linear-gradient(to right, $color-botón, #8E13A4); /* Utilizar la variable de color */
-    color: #fff; /* Color de texto blanco */
-    margin-top: 20px; /* Espacio entre el texto de la descripción y el botón */
+  border: none;
+  border-radius: 0;
+  padding: 10px 20px;
+  background: linear-gradient(
+    to right,
+    $color-botón,
+    #8e13a4
+  ); /* Utilizar la variable de color */
+  color: #fff; /* Color de texto blanco */
+  margin-top: 20px; /* Espacio entre el texto de la descripción y el botón */
 }
 
 .btn-special:hover {
-    opacity: 0.8; /* Reducir opacidad al pasar el ratón */
+  opacity: 0.8; /* Reducir opacidad al pasar el ratón */
 }
-
 
 // SPACE
 
-.card{
-    background: #222222!important;
+.card {
+  background: #222222 !important;
 }
 
-img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-#w{
-    position: fixed;
-    z-index: -999;
-    opacity: 0.2;
-
+#w {
+  position: fixed;
+  z-index: -999;
+  opacity: 0.2;
 }
-
 
 // // CAROUSEL
 // h2{
 //     text-align:center;
 //     padding: 20px;
 //   }
-  /* Slider */
-  
-  .slick-slide {
-      margin: 0px 20px;
+/* Slider */
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: "";
+}
+.slick-track:after {
+  clear: both;
+}
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+.img-blanca {
+  filter: brightness(0) invert(1);
+}
+
+.img-bg-1 {
+  background-image: url("../img/mockup1.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 380px;
+  transition: ease-out 0.3s;
+}
+.img-bg-2 {
+  background-image: url("../img/mockup2.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  transition: ease-out 0.3s;
+}
+.img-bg-3 {
+  background-image: url("../img/mockup3.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  transition: ease-out 0.3s;
+}
+.img-bg-4 {
+  background-image: url("../img/mockup4.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  transition: ease-out 0.3s;
+}
+
+.hover-port {
+  transition: ease-out 0.3s;
+  &:hover {
+    background: #121212 !important;
+    opacity: 0.3 !important;
+    transition: ease-out 0.3s !important;
+    transform: scale(0.9) !important;
   }
-  
-  .slick-slide img {
-      width: 100%;
-  }
-  
-  .slick-slider
-  {
-      position: relative;
-      display: block;
-      box-sizing: border-box;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-              user-select: none;
-      -webkit-touch-callout: none;
-      -khtml-user-select: none;
-      -ms-touch-action: pan-y;
-          touch-action: pan-y;
-      -webkit-tap-highlight-color: transparent;
-  }
-  
-  .slick-list
-  {
-      position: relative;
-      display: block;
-      overflow: hidden;
-      margin: 0;
-      padding: 0;
-  }
-  .slick-list:focus
-  {
-      outline: none;
-  }
-  .slick-list.dragging
-  {
-      cursor: pointer;
-      cursor: hand;
-  }
-  
-  .slick-slider .slick-track,
-  .slick-slider .slick-list
-  {
-      -webkit-transform: translate3d(0, 0, 0);
-         -moz-transform: translate3d(0, 0, 0);
-          -ms-transform: translate3d(0, 0, 0);
-           -o-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-  }
-  
-  .slick-track
-  {
-      position: relative;
-      top: 0;
-      left: 0;
-      display: block;
-  }
-  .slick-track:before,
-  .slick-track:after
-  {
-      display: table;
-      content: '';
-  }
-  .slick-track:after
-  {
-      clear: both;
-  }
-  .slick-loading .slick-track
-  {
-      visibility: hidden;
-  }
-  
-  .slick-slide
-  {
-      display: none;
-      float: left;
-      height: 100%;
-      min-height: 1px;
-  }
-  [dir='rtl'] .slick-slide
-  {
-      float: right;
-  }
-  .slick-slide img
-  {
-      display: block;
-  }
-  .slick-slide.slick-loading img
-  {
-      display: none;
-  }
-  .slick-slide.dragging img
-  {
-      pointer-events: none;
-  }
-  .slick-initialized .slick-slide
-  {
-      display: block;
-  }
-  .slick-loading .slick-slide
-  {
-      visibility: hidden;
-  }
-  .slick-vertical .slick-slide
-  {
-      display: block;
-      height: auto;
-      border: 1px solid transparent;
-  }
-  .slick-arrow.slick-hidden {
-      display: none;
-  }
+}
+
+//   animacion
+
+.animate {
+  opacity: 0; /* Comienza con una opacidad de 0 para que los elementos estén ocultos */
+  transform: translateY(40px); /* Empieza ligeramente desplazado hacia abajo */
+  transition: opacity 1s, transform 1s; /* Aplica una transición suave a la opacidad y al desplazamiento */
+}
