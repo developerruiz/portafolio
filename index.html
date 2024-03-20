@@ -20,6 +20,16 @@
 
 </head>
 
+
+<div id='w'>
+    <canvas id="space"></canvas>
+    <div id="warp"></div>
+</div>
+
+
+
+
+
 <body>
     <header>
         <div class="banner d-flex justify-content-center align-items-center">
@@ -28,7 +38,7 @@
                 <p>Bienvenido a mi portafolio. Aquí encontrarás información sobre mi trabajo y mi crecimiento
                     profesional en el mundo del desarrollo web.</p>
                 <br>
-                <button class="btn btn-special">Botón Especial</button>
+                <button class="btn btn-special"><h4>CONTACTO</h4></button>
             </div>
         </div>
     </header>
@@ -38,9 +48,10 @@
             <div class="row">
                 <div class="col-12 d-flex flex-wrap">
                     <div class="col-lg-7 col-12">
-                        <h2 class="display-4 fw-bold">
-                            <!-- Hola Soy... -->
-                            <br>Ivan Ruiz Rodriguez
+                        <h5 class="text-muted">Lorem ipsum dolor sit.</h5>
+
+                        <h2 class="display-3 fw-bold">
+                            <!-- Hola Soy... -->Ivan Ruiz Rodriguez
                         </h2>
                         <p>Desarrollador Full Stack apasionado por adoptar las últimas tecnologías. Con cuatro años de
                             experiencia, he creado sistemas web personalizados utilizando HTML, CSS, PHP, y JavaScript.
@@ -50,7 +61,7 @@
                             integración de API y desarrollo en WordPress.
 
                             <br><br>¡Estoy listo para llevar tus ideas al
-                            siguiente nivel
+                            siguiente nivel!
                         </p>
 
                         <div class="d-flex justify-content-around">
@@ -85,7 +96,7 @@
     <section style="margin-top: 200px;">
         <div class="container">
             <div class="row">
-                <div class="col-12 d-flex flex-column align-items-center">
+                <div class="col-12 d-flex flex-column align-items-center flex-wrap">
 
                     <div class="col-lg-4 col-12">
                         <p>Un vistazo a mis </p>
@@ -107,11 +118,11 @@
                 </div>
 
                 <div class="col-lg-12 d-flex">
-                    <div class="col-lg-5">
-
+                    <div class="col-lg-5 position-relative overflow-hidden">
+                        <img src="img/img-portafolio.png" alt="" class="position-absolute" style="width: 150%;" >
                     </div>
                     <div class="col-lg-7 d-flex flex-wrap mt-5">
-                        <div class="col-6 p-4">
+                        <div class="col-lg-6 col-12 p-4">
                             <img src="" alt="">
                             <i class="display-3 mb-4 fa-solid fa-people-group"></i>
                             <h5>Trabajo en equipo</h5>
@@ -122,7 +133,7 @@
                             </p>
 
                         </div>
-                        <div class="col-6 p-4">
+                        <div class="col-lg-6 col-12 p-4">
                             <img src="" alt="">
                             <i class="display-3 mb-4 fa-solid fa-screwdriver-wrench"></i>
                             <h5>Solucion de problemas</h5>
@@ -133,7 +144,7 @@
                             </p>
 
                         </div>
-                        <div class="col-6 p-4">
+                        <div class="col-lg-6 col-12 p-4">
                             <img src="" alt="">
                             <i class="display-3 mb-4 fa-solid fa-arrows-rotate"></i>
                             <h5>Adaptabilidad</h5>
@@ -145,7 +156,7 @@
                             </p>
 
                         </div>
-                        <div class="col-6 p-4">
+                        <div class="col-lg-6 col-12 p-4">
                             <img src="" alt="">
                             <i class="display-3 mb-4 fa-solid fa-gears"></i>
                             <h5>Proactividad</h5>
@@ -169,7 +180,8 @@
             <div class="row">
                 <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                     <h2 class="text-center display-4 fw-bold">Experiencias Digitales: <br> Tu Web Impactante</h2>
-                    <p class="text-center col-lg-4 col-12">mi compromiso con la excelencia y la creatividad en el diseño y la
+                    <p class="text-center col-lg-4 col-12">mi compromiso con la excelencia y la creatividad en el diseño
+                        y la
                         presentación de sitios web refleja una combinación única de innovación y atención al detalle.
 
                     </p>
@@ -181,6 +193,30 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- SLIDE -->
+    <section>
+        <div class="container">
+            <br><br>
+            <!-- <h2>Our Partners</h2> -->
+            <section class="customer-logos slider">
+                <div class="slide"><img
+                        src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+                <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+                <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+                <div class="slide"><img
+                        src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+                <div class="slide"><img
+                        src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+                <div class="slide"><img
+                        src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+                <div class="slide"><img
+                        src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+
+            </section>
+        </div>
+
     </section>
 
 
@@ -253,92 +289,100 @@
             <div class="row">
                 <div class="col-lg-12 d-flex flex-wrap justify-content-center">
                     <div class="col-lg-5 p-5 col-12">
-                        <h2 class="display-4 fw-bold ">
+                        <h2 class="display-4 fw-bold text-start ">
                             Mis Proyectos Destacados
                         </h2>
-                        <p>Con experiencia full-stack, desarrollo soluciones que combinan funcionalidad y estilo. Mis
+                        <p class="ms-4">Con experiencia full-stack, desarrollo soluciones que combinan funcionalidad y estilo. Mis
                             proyectos están diseñados para sobresalir en el mercado, ofreciendo tanto calidad como
                             innovación para satisfacer tus necesidades digitales</p>
                         <br>
                         <br>
-                        <a href="https://app.netlify.com/teams/developerruiz/sites" class="text-decoration-none text-white" target="_blank">Ver más <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://app.netlify.com/teams/developerruiz/sites"
+                            class="text-decoration-none text-white" target="_blank">Ver más <i
+                                class="fa-solid fa-arrow-right"></i></a>
                     </div>
 
 
                     <div class="col-lg-5 p-5 ">
-                        <a href="https://accm-crypto.netlify.app/" class="col-12 d-flex align-items-center mb-4 text-decoration-none text-white">
-                            <div class="col-4">
-                                <!-- <i class="fa-solid fa-globe fs-1"></i> -->
-                                <img src="img/web-1.png" alt="" >
+
+
+                        <a href="https://frasan-colors.netlify.app/"
+                        class="col-12 d-flex align-items-center mb-4 text-decoration-none text-white card flex-row p-2">
+                          <div class="col-6 p-2">
+                            <!-- <i class="fa-solid fa-globe fs-1"></i> -->
+                            <img src="img/web-6.png" alt="">
+
+                        </div>
+                        <div class="">
+                           <h2 class="fs-5 text-start p-0 m-0">Sitio web para empresa de pintura</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
+                        </div>
+                    </a>
+
+
+                        <a href="https://accm-crypto.netlify.app/"
+                            class="col-12 d-flex align-items-center mb-4 text-decoration-none text-white card flex-row p-2">
+                            <div class="col-6 p-2">
+                                <img src="img/web-1.png" alt="">
                             </div>
-                            <div class="col-lg-8">
-                                <h2 class="fs-4">Proyecto de criptomonedas</h2>
+                            <div class="">
+                                <h2 class="fs-5 text-start p-0 m-0">Proyecto de criptomonedas</h2>
                                 <p>Pagina web para proyecto de cripto moneda</p>
+
                             </div>
                         </a>
 
-                        <a href="https://kokopellivainilla.netlify.app/" class="col-12 d-flex align-items-center mb-4 text-decoration-none text-white">
-                            <div class="col-4">
-                                <!-- <i class="fa-solid fa-globe fs-1"></i> -->
+
+
+                        <a href="https://kokopellivainilla.netlify.app/"
+                            class="col-12 d-flex align-items-center mb-4 text-decoration-none text-white card flex-row p-2">
+                            <div class="col-6 p-2">
                                 <img src="img/web-2.png" alt="">
                             </div>
-                            <div class="col-lg-8">
-                                <h2 class="fs-4">Sitio par panaderia proyecto de emprendimiento</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur elit. Odio consectetur necessitatibus illo
-                                    non veritatis saepe velit perspiciatis maxime et dolores.</p>
+                            <div class="">
+                                <h2 class="fs-5 text-start p-0 m-0">Sitio par panaderia proyecto de emprendimiento</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur elit..</p>
                             </div>
                         </a>
 
-                        <a href="https://prendamaquina.netlify.app/" class="col-12 d-flex align-items-center mb-4 text-decoration-none text-white">
-                          <div class="col-4">
+                        <a href="https://prendamaquina.netlify.app/"
+                            class="col-12 d-flex align-items-center mb-4 text-decoration-none text-white card flex-row p-2">
+                              <div class="col-6 p-2">
                                 <!-- <i class="fa-solid fa-globe fs-1"></i> -->
                                 <img src="img/Screenshot_1.png" alt="">
                             </div>
-                            <div class="col-lg-8">
-                                <h2 class="fs-4">Empresa de empeño de maquinas</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur elit. Odio consectetur necessitatibus illo
-                                    non veritatis saepe velit perspiciatis maxime et dolores.</p>
+                            <div class="">
+                               <h2 class="fs-5 text-start p-0 m-0">Empresa de empeño de maquinas</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
                             </div>
                         </a>
 
-                        <a href="https://frasangreen.netlify.app/" class="col-12 d-flex align-items-center mb-4 text-decoration-none text-white">
-                          <div class="col-4">
+                        <a href="https://frasangreen.netlify.app/"
+                            class="col-12 d-flex align-items-center mb-4 text-decoration-none text-white card flex-row p-2">
+                              <div class="col-6 p-2">
                                 <!-- <i class="fa-solid fa-globe fs-1"></i> -->
                                 <img src="img/web-4.png" alt="">
 
                             </div>
-                            <div class="col-lg-8">
-                                <h2 class="fs-4">Sitio web para empresa de recoleccion</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur elit. Odio consectetur necessitatibus illo
-                                    non veritatis saepe velit perspiciatis maxime et dolores.</p>
+                            <div class="">
+                               <h2 class="fs-5 text-start p-0 m-0">Sitio web para empresa de recoleccion</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
                             </div>
                         </a>
 
-                        <a href="https://frasan-colors.netlify.app/" class="col-12 d-flex align-items-center mb-4 text-decoration-none text-white">
-                          <div class="col-4">
+          
+                        <a href="https://fransanco.netlify.app/"
+                            class="col-12 d-flex align-items-center mb-4 text-decoration-none text-white card flex-row p-2">
+                              <div class="col-6 p-2">
                                 <!-- <i class="fa-solid fa-globe fs-1"></i> -->
-                                <img src="img/web-6.png" alt="">
+                                <img src="img/web-3.png" alt="">
 
                             </div>
-                            <div class="col-lg-8">
-                                <h2 class="fs-4">Sitio  web para  empresa de pintura</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur elit. Odio consectetur necessitatibus illo
-                                    non veritatis saepe velit perspiciatis maxime et dolores.</p>
+                            <div class="">
+                               <h2 class="fs-5 text-start p-0 m-0">Sitio web para empresa contructora</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
                             </div>
                         </a>
-
-                        <a href="https://fransanco.netlify.app/" class="col-12 d-flex align-items-center mb-4 text-decoration-none text-white">
-                            <div class="col-4">
-                                  <!-- <i class="fa-solid fa-globe fs-1"></i> -->
-                                  <img src="img/web-3.png" alt="">
-  
-                              </div>
-                              <div class="col-lg-8">
-                                  <h2 class="fs-4">Sitio  web para  empresa contructora</h2>
-                                  <p>Lorem ipsum dolor sit amet, consectetur elit. Odio consectetur necessitatibus illo
-                                      non veritatis saepe velit perspiciatis maxime et dolores.</p>
-                              </div>
-                          </a>
 
 
 
@@ -348,7 +392,7 @@
         </div>
     </section>
 
-    <section style="margin-top: 200px; height: 300px;" class="d-flex align-items-center">
+    <section style="margin-top: 100px; height: 400px;" class="d-flex align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 d-flex flex-wrap justify-content-center align-items-center">
@@ -363,37 +407,37 @@
             </div>
         </div>
     </section>
-    
+
     <hr>
 
     <footer>
 
         <div class="container">
             <div class="row">
-               <div class="col-lg-12 d-flex justify-content-around">
-                 <div class="col-lg-10 col-3">
-                    <h6 class="text-start">Ivan Ruiz</h6>
-                 </div>
-                 <div class="col-lg-2 col-9">
-                     <ul class="list-unstyled d-flex justify-content-around">
-                         <a href="" class=" mx-2 text-decoration-none text-white">
-                            <li><i class="fs-4 fa-brands fa-instagram"></i></li>
-                         </a>
-                         <a href="" class=" mx-2 text-decoration-none text-white">
-                          <li><i class="fs-4 fa-brands fa-square-facebook"></i></li>
-                         </a>
-                       <a href="" class=" mx-2 text-decoration-none text-white">
-                            <li><i class="fs-4 fa-brands fa-linkedin"></i></li>
-                       </a>
-                         <a href="" class=" mx-2 text-decoration-none text-white">
-                             <li><i class="fs-4 fa-brands fa-github"></i></li>
-                        </a>
-                        <a href="" class=" mx-2 text-decoration-none text-white">
-                          <li><i class="fs-4 fa-solid fa-link"></i></li>
-                       </a>
-                     </ul>
-                 </div>
-               </div>
+                <div class="col-lg-12 d-flex justify-content-around">
+                    <div class="col-lg-10 col-3">
+                        <h6 class="text-start">Ivan Ruiz</h6>
+                    </div>
+                    <div class="col-lg-2 col-9">
+                        <ul class="list-unstyled d-flex justify-content-around">
+                            <a href="" class=" mx-2 text-decoration-none text-white">
+                                <li><i class="fs-4 fa-brands fa-instagram"></i></li>
+                            </a>
+                            <a href="" class=" mx-2 text-decoration-none text-white">
+                                <li><i class="fs-4 fa-brands fa-square-facebook"></i></li>
+                            </a>
+                            <a href="" class=" mx-2 text-decoration-none text-white">
+                                <li><i class="fs-4 fa-brands fa-linkedin"></i></li>
+                            </a>
+                            <a href="" class=" mx-2 text-decoration-none text-white">
+                                <li><i class="fs-4 fa-brands fa-github"></i></li>
+                            </a>
+                            <a href="" class=" mx-2 text-decoration-none text-white">
+                                <li><i class="fs-4 fa-solid fa-link"></i></li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
@@ -431,8 +475,35 @@
     </div> -->
 
     <!-- Más contenido aquí -->
+
     <script src="script.js"></script>
 
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script <script>
+        $(document).ready(function () {
+            $('.customer-logos').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }]
+            });
+        });
+    </script>
 </body>
 
 </html>
