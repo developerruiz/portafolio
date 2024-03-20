@@ -97,6 +97,7 @@ img {
 #w {
   position: fixed;
   z-index: -999;
+  opacity: 0.4;
 }
 
 /* Slider */
