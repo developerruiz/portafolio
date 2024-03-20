@@ -11,14 +11,6 @@ body {
   color: #fff; /* Color de texto blanco */
 }
 
-.btn-special {
-  border: none;
-  border-radius: 0;
-  padding: 10px 20px;
-  background: linear-gradient(to right, #bfff00, #8e13a4); /* Utilizar la variable de color */
-  color: #fff; /* Color de texto blanco */
-}
-
 .btn-special:hover {
   opacity: 0.8; /* Reducir opacidad al pasar el ratón */
 }
@@ -79,8 +71,8 @@ h6 {
   border: none;
   border-radius: 0;
   padding: 10px 20px;
-  background: linear-gradient(to right, #bfff00, #8e13a4); /* Utilizar la variable de color */
-  color: #fff; /* Color de texto blanco */
+  background: #bfff00; /* Utilizar la variable de color */
+  color: #121212 !important; /* Color de texto blanco */
   margin-top: 20px; /* Espacio entre el texto de la descripción y el botón */
 }
 
