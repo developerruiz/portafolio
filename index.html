@@ -4,21 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
+    <title>Portafolio - Ivan Ruiz</title>
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
     <link rel="stylesheet" href="css/style.css">
-
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <!-- FONTAWENSOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 
@@ -32,6 +34,7 @@
 
 
 <body>
+    <!-- Header -->
     <header>
         <div class="banner d-flex justify-content-center align-items-center">
             <div class="text-center">
@@ -40,12 +43,42 @@
                     en tecnologías modernas, optimización de sistemas y desarrollo de experiencias digitales eficientes.
                 </p>
                 <br>
-                <button class="btn btn-special">
+                <!-- Botón para abrir el modal -->
+                <button class="btn btn-special" data-bs-toggle="modal" data-bs-target="#contactoModal">
                     <h4 class="text-black">CONTACTO</h4>
                 </button>
             </div>
         </div>
     </header>
+
+
+    <!-- Modal de Contacto -->
+    <div class="modal fade contacto-modal" id="contactoModal" tabindex="-1" aria-labelledby="contactoModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactoModalLabel">Formulario de Contacto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Este formulario es solo una demostración y no enviará mensajes.</p>
+                    <p>Puedes contactarme directamente en:</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa-solid fa-envelope"></i> Email: <a
+                                href="mailto:ivanrur95@gmail.com">ivanrur95@gmail.com</a></li>
+                        <!-- <li><i class="fa-brands fa-instagram"></i> Instagram: <a
+                                href="https://www.instagram.com/develop_ruiz/" target="_blank">@develop_ruiz</a></li> -->
+                        <li><i class="fa-brands fa-linkedin"></i> LinkedIn: <a
+                                href="https://www.linkedin.com/in/developruiz/" target="_blank">Ivan Ruiz</a></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <section style="margin-top: 150px;">
@@ -366,8 +399,8 @@
 
     <hr>
 
+    <!-- Footer -->
     <footer>
-
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-around">
@@ -380,7 +413,6 @@
                                 class=" mx-2 text-decoration-none text-white">
                                 <li><i class="fs-4 fa-brands fa-instagram"></i></li>
                             </a>
-
                             <a href="https://www.linkedin.com/in/developruiz/" target="_blank"
                                 class=" mx-2 text-decoration-none text-white">
                                 <li><i class="fs-4 fa-brands fa-linkedin"></i></li>
@@ -388,10 +420,6 @@
                             <a href="https://github.com/developerruiz" target="_blank"
                                 class=" mx-2 text-decoration-none text-white">
                                 <li><i class="fs-4 fa-brands fa-github"></i></li>
-                            </a>
-                            <a href="https://app.netlify.com/teams/developerruiz/overview" target="_blank"
-                                class=" mx-2 text-decoration-none text-white">
-                                <li><i class="fs-4 fa-solid fa-link"></i></li>
                             </a>
                         </ul>
                     </div>

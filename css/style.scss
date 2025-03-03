@@ -1,4 +1,4 @@
-$color-botón: #bfff00; // Definir una variable para el color del botón
+$color-boton: #bfff00; // Definir una variable para el color del botón
 
 * {
   padding: 0;
@@ -12,7 +12,73 @@ body {
   color: #fff; /* Color de texto blanco */
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color-boton !important; /* Color especial para los títulos */
+}
 
+.banner {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 100vh; /* Cubre toda la altura de la pantalla */
+}
+
+.btn-special {
+  border: none;
+  border-radius: 0;
+  padding: 10px 20px;
+  background: $color-boton;
+  color: #121212 !important;
+  margin-top: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-special:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+/* Estilos para el modal */
+.contacto-modal .modal-content {
+  background: #222222 !important;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid $color-boton;
+}
+
+.contacto-modal .modal-header {
+  border-bottom: 1px solid $color-boton;
+}
+
+.contacto-modal .modal-footer {
+  border-top: 1px solid $color-boton;
+}
+
+/* Animación para la apertura del modal */
+.contacto-modal.fade .modal-dialog {
+  transform: translateY(-50px);
+  transition: transform 0.3s ease-out;
+}
+
+.contacto-modal.show .modal-dialog {
+  transform: translateY(0);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+body {
+  background-color: #121212; /* Color de fondo del sitio */
+  color: #fff; /* Color de texto blanco */
+}
 
 .btn-special:hover {
   opacity: 0.8; /* Reducir opacidad al pasar el ratón */
@@ -24,7 +90,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $color-botón !important; /* Color especial para los títulos */
+  color: $color-boton !important; /* Color especial para los títulos */
 }
 
 .banner {
@@ -77,8 +143,8 @@ h6 {
   border: none;
   border-radius: 0;
   padding: 10px 20px;
-  background: $color-botón; /* Utilizar la variable de color */
-  color: #121212!important; /* Color de texto blanco */
+  background: $color-boton; /* Utilizar la variable de color */
+  color: #121212 !important; /* Color de texto blanco */
   margin-top: 20px; /* Espacio entre el texto de la descripción y el botón */
 }
 
